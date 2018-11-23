@@ -1,0 +1,43 @@
+
+
+section .about{
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px 20px 50px;
+}
+
+.about img{
+    width: 281px;
+    height: 281px;
+    margin-right: 50px;
+}
+.about .about-me{
+    width: 40%;
+    text-align: justify;
+}
+.about .about-me h1{
+    font-size: 20px;
+    color: #464646;
+}
+.about .about-me h2{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgba(131, 131, 131, 0.8);
+}
+.about .about-mep{
+    color: #464646;
+}
+@media(max-width:768px){
+    section .about{
+        margin: 20px 20px 20px 20px;
+        flex-wrap: wrap;
+    }
+    .about img{
+        margin: 0;
+    }
+    .about .about-me{
+        margin-top:10px; 
+        width: 100%;
+        padding: 0 0px;
+    }
+}

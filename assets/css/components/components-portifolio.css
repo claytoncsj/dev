@@ -1,0 +1,34 @@
+
+section .portifolio{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+
+
+.portifolio-img{
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.portifolio img{
+    width: 270px;
+    cursor: pointer;
+}
+
+@media(max-width:608px){
+    section .portifolio{
+        height: 800px;
+    }
+    .portifolio-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .portifolio img{
+        width: 255px;
+    }
+    
+}

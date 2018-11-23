@@ -1,0 +1,15 @@
+.title-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title-section h2{
+    color: var(--color) ;
+    font-size: var(--title-font-size);
+    margin: var(--margin-title);
+}
+@media(max-width:768px){
+    .title-section h2{
+        margin: var(--margin-title-resposive);
+    }
+}
