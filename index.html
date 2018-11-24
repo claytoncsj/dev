@@ -28,20 +28,22 @@
       rel="stylesheet"
       href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css"
     />
-    <!--
-      <link
-        rel="stylesheet"
-        type="text/css"
-        media="screen"
-        href="css/normalize.css"
-      />
-    -->
   </head>
   <body onload="popup()">
+    <!--  NOTIFICAÇÃO -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <p>Hello! This site is under development.</p>
+      </div>
+    </div>
+
     <header>
       <nav>
         <li>
-          <a href="" class="btn-menu"><img src="assets/img/menu.svg" alt=""/></a>
+          <a href="" class="btn-menu"
+            ><img src="assets/img/menu.svg" alt=""
+          /></a>
         </li>
         <div>
           <ul class="menu-option">
@@ -54,12 +56,14 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#publication">Publication</a></li>
             <li><a href="#contact">Contact</a></li>
-            
-            <!-- <div class="menu-profile">
-              <ul>
-                <li><a href="" class="menu-btn-login">Contact</a></li>
-              </ul>
-            </div> -->
+
+            <!--
+              <div class="menu-profile">
+                <ul>
+                  <li><a href="" class="menu-btn-login">Contact</a></li>
+                </ul>
+              </div>
+            -->
           </ul>
         </div>
       </nav>
@@ -86,13 +90,13 @@
           <h2>Web fullstack developer</h2>
           <p></p>
           <p>
-            Hello! I'm a web developer, passionate about books, music and technology.
-             I'm also a computer technician and Adm. Linux, I started with technology 
-             by the blue screen, my thirst for knowledge made me take apart several digital 
-             devices that I had, that's how I became a computer technician. But recently 
-             deciding that I wanted to be a developer is why I'm here today, writing something 
-             that some time ago would never make any sense to me. 
-            Anyway ... I'm Clayton!
+            Hello! I'm a web developer, passionate about books, music and
+            technology. I'm also a computer technician and Adm. Linux, I started
+            with technology by the blue screen, my thirst for knowledge made me
+            take apart several digital devices that I had, that's how I became a
+            computer technician. But recently deciding that I wanted to be a
+            developer is why I'm here today, writing something that some time
+            ago would never make any sense to me. Anyway ... I'm Clayton!
           </p>
         </div>
       </div>
@@ -100,11 +104,11 @@
     <!---->
     <div class="title-section" id="service"><h2>Service</h2></div>
     <section>
-      <div class="service" >
-          <div class="service-img">
-              <img src="assets/img/desktop.svg" alt="" />
-              <p>Web Aplication</p>
-            </div>
+      <div class="service">
+        <div class="service-img">
+          <img src="assets/img/desktop.svg" alt="" />
+          <p>Web Aplication</p>
+        </div>
         <div class="service-img">
           <img src="assets/img/edition.svg" alt="" />
           <p>Web Aplication</p>
@@ -124,33 +128,53 @@
     <div class="title-section" id="portifolio"><h2>Portifolio</h2></div>
     <section>
       <div class="portifolio">
-        
-          <div class="portifolio-img">
-            <a href="assets/img/img/10.png" class="js-smartPhoto" data-group="animal">
-              <img src="assets/img/img/09.png" />
-            </a>
-            <a href="assets/img/img/06.png" class="js-smartPhoto" data-group="animal">
-              <img src="assets/img/img/05.png" />
-            </a>
-            <a href="assets/img/img/04.png" class="js-smartPhoto" data-group="animal">
-              <img src="assets/img/img/03.png" />
-            </a>
-          </div>
+        <div class="portifolio-img">
+          <a
+            href="assets/img/img/10.png"
+            class="js-smartPhoto"
+            data-group="animal"
+          >
+            <img src="assets/img/img/09.png" />
+          </a>
+          <a
+            href="assets/img/img/06.png"
+            class="js-smartPhoto"
+            data-group="animal"
+          >
+            <img src="assets/img/img/05.png" />
+          </a>
+          <a
+            href="assets/img/img/04.png"
+            class="js-smartPhoto"
+            data-group="animal"
+          >
+            <img src="assets/img/img/03.png" />
+          </a>
+        </div>
 
-          <div class="portifolio-img">
-            <a href="assets/img/img/02.png" class="js-smartPhoto" data-group="animal">
-              <img src="assets/img/img/01.png" />
-            </a>
-            <a href="assets/img/img/08.jpg" class="js-smartPhoto" data-group="animal">
-              <img src="assets/img/img/07.jpg" />
-            </a>
-            <a href="assets/img/img/11.jpg" class="js-smartPhoto" data-group="animal">
-              <img src="assets/img/img/12.jpg" />
-            </a>
-          </div>
-
-    
-        
+        <div class="portifolio-img">
+          <a
+            href="assets/img/img/02.png"
+            class="js-smartPhoto"
+            data-group="animal"
+          >
+            <img src="assets/img/img/01.png" />
+          </a>
+          <a
+            href="assets/img/img/08.jpg"
+            class="js-smartPhoto"
+            data-group="animal"
+          >
+            <img src="assets/img/img/07.jpg" />
+          </a>
+          <a
+            href="assets/img/img/11.jpg"
+            class="js-smartPhoto"
+            data-group="animal"
+          >
+            <img src="assets/img/img/12.jpg" />
+          </a>
+        </div>
       </div>
     </section>
     <!---->
@@ -183,22 +207,19 @@
 
     <section id="contact">
       <div class="contact">
-        <form  name="formContact" id="formContact" method="">
+        <form name="formContact" id="formContact" method="">
           <div class="contact-primary">
-            <label for="">Nome</label> 
-            <input type="name" id="name" />
-            <label for="" >Telefone</label>
-            <input type="text" id="telefone" />
-            <label for="">Email</label>
-            <input type="email" id="email" />
+            <label for="">Nome</label> <input type="name" id="name" />
+            <label for="">Telefone</label> <input type="text" id="telefone" />
+            <label for="">Email</label> <input type="email" id="email" />
             <label for="">Mensagem</label>
-            <textarea  id="mensagem" cols="30" rows="6"></textarea>
+            <textarea id="mensagem" cols="30" rows="6"></textarea>
           </div>
           <button onclick="contact()">Enviar</button>
         </form>
       </div>
     </section>
-  
+
     <!-- FOOTER -->
     <footer>
       <div class="socias-icons">
@@ -224,6 +245,7 @@
       </div>
     </footer>
 
+    
 
     <!-- SCRIPT JQUERY -->
     <script src="assets/js/jquery.min.js"></script>
@@ -241,15 +263,10 @@
     <!-- PaRTICLES POLIGNOS -->
     <script type="text/javascript" src="assets/js/particles.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
-
+    <script type="text/javascript" src="assets/js/script.js"></script>
 
     <script src="assets/js/validator/script-validate.js"></script>
 
-
-    <script>
-      function popup(){
-        alert('Este site encontra-se em desenvolvimento')
-      }
-    </script>
+    
   </body>
 </html>

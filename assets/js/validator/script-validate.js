@@ -11,10 +11,9 @@ function contact(){
     if(name == ''){
         console.log('vazio')
     }
-    
-    
-    
-    
+ 
     
 }
 contact()
+
+
