@@ -1,6 +1,6 @@
 
  var contact = (event) => {
-    event.preventDefault();
+
     let name = document.querySelector('#name').value;
     let telefone = document.querySelector('#telefone').value;
     let email = document.querySelector('#email').value;

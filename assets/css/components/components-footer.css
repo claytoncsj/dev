@@ -8,27 +8,27 @@ footer {
     color: #000;
  }
 
-footer .socias-icons a{
+footer a{
     display: flex;
     justify-content: center;
     font-size: 14px;
     color: #ffffff;
 }
-.socias-icons .rodape p{
+footer p{
     margin-top:10px ;
     text-align: center;
     font-size: 13px;
     color: #ffffff;
 }
-footer .socias-icons ul{
+footer ul{
     display: flex;
     flex-direction: row;
     justify-content: center;  
     margin-bottom: 20px; 
 }
-footer .socias-icons li {list-style: none}
-footer .socias-icons i{font-size: 30px;margin: 10px; color: #ffffff}
-footer .socias-icons i:hover{color: #f33c60}
+footer li {list-style: none}
+footer i{font-size: 30px;margin: 10px; color: #ffffff}
+footer i:hover{color: #f33c60}
 
 
 

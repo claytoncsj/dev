@@ -4,7 +4,6 @@ const $btnMenuClose = document.querySelector('.menu-close')
 
 $btnMenu.addEventListener('click', function(event){
     event.preventDefault()
-    console.log($menu)
     $menu.classList.add('menu-open')
 })
 
