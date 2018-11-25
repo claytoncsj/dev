@@ -210,15 +210,15 @@
         <form name="formContact"  action="https://formspree.io/claytoncsj520@gmail.com" method="POST">
           <div class="contact-primary">
             <label for="">Nome</label> 
-            <input type="text" id="name" name="name"/>
+            <input type="text" id="name" name="name" required="required"/>
             <label for="">Telefone</label> 
-            <input type="tel" id="telefone" name="telefone"/>
+            <input type="tel" id="telefone" name="telefone" required="required"/>
             <label for="">Email</label> 
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required="required"/>
             <label for="">Mensagem</label>
             <textarea id="mensagem" name="mensagem" cols="30" rows="6"  maxlength="300"></textarea>
           </div>
-         <input type="submit" value="send" onclick="contact()">
+         <input type="submit" onclick="contact()">
         </form>
       </div>
     </section>
@@ -248,8 +248,6 @@
       </div>
     </footer>
 
-    
-
     <!-- SCRIPT JQUERY -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- SCRIPT MENU MOBILE -->
@@ -257,17 +255,10 @@
     <!-- SCROLL -->
     <script src="assets/js/scroll.js"></script>
     <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
-    <script>
-      window.addEventListener("DOMContentLoaded", function() {
-        new SmartPhoto(".js-smartPhoto");
-      });
-    </script>
-
-    <!-- PaRTICLES POLIGNOS -->
+    <!-- PARTICLES POLIGNOS -->
     <script type="text/javascript" src="assets/js/particles.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-
     <script src="assets/js/validator/script-validate.js"></script>
 
     
