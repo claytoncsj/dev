@@ -1,19 +1,26 @@
 
 let invalid = document.querySelector('.error');
 
-function contact(){
+ var contact = () => {
    
-    var name = document.querySelector('#name').value;
-    var telefone = document.querySelector('#telefone').value;
-    var email = document.querySelector('#email').value;
-    var mensagem = document.querySelector('#mensagem').value;
+    let name = document.querySelector('#name').value;
+    let telefone = document.querySelector('#telefone').value;
+    let email = document.querySelector('#email').value;
+    let mensagem = document.querySelector('#mensagem').value;
 
     if(name == ''){
-        console.log('vazio')
+        alert('Preencha o campo nome')
+        return false
     }
  
+    if(telefone == ''){
+        alert('Preencha o campo telefone')
+        return false
+    }
+
+    if(email == ''){
+        alert('Preencha o campo email')
+        return false
+    }
     
 }
-contact()
-
-

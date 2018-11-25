@@ -22,6 +22,17 @@ section .contact{
     background-color: #f3f3f3b5;
     border: 2px solid #000;
 }
+.contact form input[type="submit"]{
+   margin: 20px 0;
+   padding: 10px 30px;
+   background-color: #000;
+   color: #fff;
+   cursor: pointer;
+}
+.contact form input[type="submit"]:hover{
+    background-color: transparent;
+    color: #000;
+}
 .contact form input .error{
     border:  2px solid rgb(219, 64, 64);
 }

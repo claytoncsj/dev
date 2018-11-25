@@ -207,15 +207,18 @@
 
     <section id="contact">
       <div class="contact">
-        <form name="formContact" id="formContact" method="">
+        <form name="formContact" id="formContact" method="https://formspree.io/claytoncsj520@gmail.com" method="POST">
           <div class="contact-primary">
-            <label for="">Nome</label> <input type="name" id="name" />
-            <label for="">Telefone</label> <input type="text" id="telefone" />
-            <label for="">Email</label> <input type="email" id="email" />
+            <label for="">Nome</label> 
+            <input type="text" id="name" name="name" required="required" />
+            <label for="">Telefone</label> 
+            <input type="tel" id="telefone" name="telefone" required="required"/>
+            <label for="">Email</label> 
+            <input type="email" id="email" name="email" required="required" />
             <label for="">Mensagem</label>
-            <textarea id="mensagem" cols="30" rows="6"></textarea>
+            <textarea id="mensagem" name="mensagem" cols="30" rows="6"  maxlength="300"></textarea>
           </div>
-          <button onclick="contact()">Enviar</button>
+         <input type="submit" value="send" onclick="contact()">
         </form>
       </div>
     </section>
