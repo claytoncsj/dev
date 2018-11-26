@@ -33,9 +33,7 @@ section .contact{
     background-color: transparent;
     color: #000;
 }
-.contact form input .error{
-    border:  2px solid rgb(219, 64, 64);
-}
+
 .contact form input:focus{
     border: 2px solid rgb(44, 44, 44);
 }

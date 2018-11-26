@@ -19,11 +19,7 @@ section .about{
     font-size: 20px;
     color: #464646;
 }
-.about .about-me h2{
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: rgba(131, 131, 131, 0.8);
-}
+
 .about .about-mep{
     color: #464646;
 }

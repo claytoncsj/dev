@@ -1,24 +1,22 @@
 
- var contact = (event) => {
 
-    let name = document.querySelector('#name').value;
-    let telefone = document.querySelector('#telefone').value;
-    let email = document.querySelector('#email').value;
-    let mensagem = document.querySelector('#mensagem').value;
+let name = document.querySelector("#name");
+let telefone = document.querySelector("#telefone");
+let email = document.querySelector("#email");
+let mensagem = document.querySelector("#mensagem");
 
-    if(name == ''){
-        alert('Preencha o campo nome')
-        return false
-    }
- 
-    if(telefone == ''){
-        alert('Preencha o campo telefone')
-        return false
-    }
+let form = document.querySelector("#form");
 
-    if(email == ''){
-        alert('Preencha o campo email')
-        return false
-    }
-    
-}
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  let dados = {
+      name: nome.value,
+      telefone: telefone.value,
+      email: email.value,
+      mensagem: mensagem.value,
+  }
+
+
+});
+

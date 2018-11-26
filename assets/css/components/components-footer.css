@@ -14,12 +14,16 @@ footer a{
     font-size: 14px;
     color: #ffffff;
 }
+footer a:hover{
+    color: #ff3366;
+}
 footer p{
     margin-top:10px ;
     text-align: center;
     font-size: 13px;
     color: #ffffff;
 }
+
 footer ul{
     display: flex;
     flex-direction: row;
@@ -28,7 +32,7 @@ footer ul{
 }
 footer li {list-style: none}
 footer i{font-size: 30px;margin: 10px; color: #ffffff}
-footer i:hover{color: #f33c60}
+footer i:hover{color: #ff3366}
 
 
 
