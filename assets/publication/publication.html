@@ -8,7 +8,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
 </head>
-<body>
+<body onload="popup()">
+   <!--  NOTIFICAÇÃO -->
+   <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <p>Hello! This site is under development.</p>
+    </div>
+  </div>
+
     <header style="background-color: #000;">
         <nav>
           <li>
@@ -19,7 +27,7 @@
           <div>
             <ul class="menu-option">
               <a href="#" class="menu-close"
-                ><img src="../img/close-menu.svg" alt=""
+                ><img src="../img/close.svg" alt=""
               /></a>
               <li><a href="../../index.html" class="item">Home</a></li>
               <li><a href="#service" class="item">Javascript</a></li>
@@ -40,5 +48,7 @@
 
       <script src="../js/jquery.min.js"></script>
       <script src="../js/menu.js"></script>
+      <script src="../js/script.js"></script>
+
 </body>
 </html>
